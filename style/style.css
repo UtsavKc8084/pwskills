@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.438), rgba(4, 9, 30, 0.75)),
+    url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  /* background-size: 150vh; */
+  background-repeat: no-repeat;
+  min-height: 140vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.logo img {
+  margin: 10px;
+  height: 35px;
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffb100;
+  font-size: 12px;
+  padding: 0 30px;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  background-color: #f55050;
+  color: white;
+  border: 1px solid #f55050;
+  margin: 8px 10px 0 0;
+  font-size: 15px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section h1 {
+  font-size: 75px;
+  color: #ffb100;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+#one {
+  margin: 100px;
+}
+#two {
+  margin: 50px;
+}
+.main-btn {
+  border: 1px solid #f55050;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  font-size: large;
+  background-color: #f55050;
+  color: white;
+}
+.footer-img img {
+  position: absolute;
+  padding: 15px;
+  height: 130px;
+  bottom: 0;
+  right: 0;
+}
